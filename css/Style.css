@@ -1,0 +1,488 @@
+.navbar{
+	background-color: white
+}
+.navbar .nav > li{
+	background-color: white;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: skyblue
+}
+.navbar .navbar-brand{
+	font-size: 25px;
+	color: #BBB
+}
+.navbar .navbar-brand span{
+	color: skyblue
+}
+.nav {
+	background: url('../image/2.jpg') center center fixed;
+	background-size: cover
+}
+.nav img{
+	float: right;
+}
+.nav h1{
+	margin-top: 100px;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;text-align: center
+}
+.nav h2{
+	text-transform: uppercase;
+	color: black;
+	position: relative;
+	text-align: center
+}
+.nav h2:after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 80px;
+	border-bottom: 8px solid #fff;
+	margin-top: 25px;
+	margin-left: 520px
+}
+.nav button{
+	margin-left: 260px;
+	background:#CCC;
+	height: 50px;
+	width: 160px;
+	color: black;
+	border: 1px solid #CCC;
+	font-size: 18px;
+	margin-top: 70px;
+	border-radius: 14px;
+	-webkit-transition: all 0.7s ease-in-out;
+	-moz-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+	cursor: pointer
+}
+.nav button:hover{
+	background:#1caee9; 
+	border: 1px solid #1caee9
+}
+.nav .arrow{
+	text-align: center;
+	margin-top: 140px;
+	color: #349;
+	margin-bottom: 40px;;
+	cursor: pointer
+}
+.offer{
+	color: white;
+	
+    background-color: #534ae5; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#534ae5, #1caee9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#534ae5, #1caee9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#534ae5, #1caee9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#534ae5, #1caee9); /* Standard syntax (must be last) */
+}
+.offer h3{
+	margin-top: 30px;
+	text-align: center;
+	text-transform: uppercase
+}
+.offer h1{
+	font-size: 55px;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin-bottom: 50px
+}
+.offer h1:after{
+	content: "";
+	display: block;
+	position: absolute;
+	margin-left: 530px;
+	top: 40px;
+	left: 0;
+	width: 90px;
+	border: 4px solid #fff;
+	margin-top: 50px;
+}
+.slide .item{
+	max-height: 300px;
+	background-position: center center;
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.slide i{
+	margin-top: 130px
+}
+.slide p{
+	font-size: 30px;
+	margin-bottom: 70px;
+	background: rgba(0,0,0,0.3);
+}
+.slide .carousel-indicators .active{
+	background-color: #1caee9;
+	height: 15px;
+	width: 15px;
+	line-height: 15px;
+	border-radius: 50%
+}
+.slide i{
+	color: cyan;
+}
+.offer .ed{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 60px;
+	position: relative;
+	font-weight: bold;
+	text-transform: uppercase
+}
+.offer .ed:after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: -10px;
+	left: 0;
+	width: 90px;
+	border: 4px solid #28cba0;
+	margin-top: 50px;
+	margin-left: 200px
+}
+.offer .ed:before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: -10px;
+	right: 0;
+	width: 90px;
+	border: 4px solid #28cba0;
+	margin-top: 50px;
+	margin-right:200px
+}
+.offer .icons{
+	text-align: center;
+	margin-top: 40px
+}
+.offer .icons i{
+	font-size: 110px
+}
+.offer .icons h3{
+	font-size: 20px
+}
+.offer .arrow{
+	text-align: center;
+	margin-top: 30px;
+}
+.offer .arrow i{
+	cursor: pointer;
+	margin-bottom: 30px
+}
+.use{
+	padding: 40px
+}
+.use .hed{
+	text-align: center;
+	margin-bottom: 90px;
+	font-size: 60px;
+	font-weight: bold;
+	color: black;
+	position: relative;
+	text-transform: uppercase
+}
+.use .hed:after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 40;
+	margin-left: 520px;
+	width: 90px;
+	border: 4px solid #CCC;
+	margin-top: 30px;
+	margin-bottom: 50px
+}
+.use .info h1{
+	font-size: 55px;
+	color: black;
+	font-weight: bold;
+	position: relative;
+	margin-bottom: 30px;
+	text-transform: uppercase
+}
+.use h1:after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 40;
+	left: 0;
+	width: 30px;
+	border: 4px solid #CCC;
+	margin-top: 10px
+}
+.use p{
+	font-size: 20px;
+	color: black;
+	
+}
+.use .info2{
+	margin-top: 60px;
+}
+.use .info2 h1{
+	font-size: 55px;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	position: relative
+}
+.use .info2 button{
+	background-color: #CCC;
+	color: #fffefc;
+	width: 170px;
+	height: 40px;
+	border: 1px solid #CCC;
+	cursor: pointer;
+	border-radius: 12px;
+	font-size: 20px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.use .info2 button:hover{
+	background-color: #fed336;
+	border: 1px solid #fed336;
+}
+.use .info3 h1{
+	font-size: 55px;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	position: relative;
+	margin-top: 160px;
+}
+.use .info3 img{
+	border-radius: 50%;
+	border: 2px solid #1caee9;
+	width: 90%;
+	padding: 10px;
+	height: 90%;
+	box-shadow: 10px 10px 5px 10px #BBB;
+	background-color: white
+}
+.use .info4 h1{
+	font-size: 55px;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	position: relative;
+	margin-top: 160px;
+	margin-left: 100px
+}
+.use .info4 p{
+	margin-left: 100px
+}
+.use .info4 img{
+	border-radius: 50%;
+	border: 2px solid #1caee9;
+	width: 90%;
+	padding: 10px;
+	height: 90%;
+	box-shadow: 10px 10px 5px 10px #BBB;
+	background-color: white;
+}
+.use .arrow{
+	margin-top: 50px;
+	color: #1caee9;
+	text-align: center;
+}
+.use .arrow i{
+	cursor: pointer
+}
+.option{
+	color: white;
+	
+    background-color: #534ae5; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#534ae5, #1caee9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#534ae5, #1caee9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#534ae5, #1caee9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#534ae5, #1caee9); /* Standard syntax (must be last) */
+}
+.option .prag1 h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom: 70px;
+	position: relative;
+	letter-spacing: 5px
+}
+.option .prag1 h1:after{
+	content: "";
+	position: absolute;
+	width: 80px;
+	top: 40;
+	margin-left: 520px;
+	border: 4px solid #fff;
+	display: block;
+	margin-top: 20px
+}
+.option .prag1 p{
+	text-align: center;
+	font-size: 22px;
+}
+.option .prag1 p span{
+	color: #ffd924;
+	text-transform: uppercase
+}
+.option .prag2{
+	border: 4px dotted #fff;
+	border-radius: 40px;
+	margin-top: 50px
+}
+.option .prag2 h1{
+	text-align: center;
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-weight: bold
+}
+.option .prag2 h1 span{
+	color: #27c6a6
+}
+.option .prag2 p{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 30px
+}
+.option .prag2 p span{
+	color: #27c6a6;
+	text-transform: uppercase
+}
+.option .icons h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 50px;
+	margin-bottom: 70px;
+	margin-top: 50px
+}	
+.option .icons .co{
+	text-align: center;
+}
+.option .icons .co i{font-size: 110px}
+.option .icons .co p{
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-top: 15px;
+	margin-bottom: 35px
+}
+.option .arrow{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.option .arrow i{
+	cursor: pointer
+}
+.price_table{
+	overflow: hidden
+}
+.price_table ul{
+ 	list-style: none;
+	font-size: 18px;
+	margin-top: 50px;
+	overflow: hidden;
+}
+.price_table ul li{
+	display: block;
+	float: left;
+	margin-right: 20px;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: 0.7s ease-in-out;
+	-o-transition: 0.7s ease-in-out;
+	-moz-transition: 0.7s ease-in-out;
+	transition: 0.7s ease-in-out;
+	border: 2px solid #1caee9;
+	border-radius: 10px;
+	width: 100px;
+	box-shadow: 4px 4px 4px 4px #BBB;
+}
+.price_table .select{
+	background-color:#1caee9;
+	color: white;
+	border: 2px solid #1caee9;
+}
+
+.price_table .mix{
+	display: none
+}
+.price_table .pri{
+	text-align: center;
+	margin-top: 20px
+}
+.sub{
+	  background-color: #534ae5; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#534ae5, #1caee9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#534ae5, #1caee9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#534ae5, #1caee9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#534ae5, #1caee9); /* Standard syntax (must be last) */
+	margin-top: 40px;
+	padding: 20px
+}
+.sub .icons{
+	text-align: center;
+	margin-top: 30px;
+}
+.sub .icons i{
+	margin-right: 7px;
+	color: #EEE;
+	border: 2px solid #fff;
+	background-color: #AAA;
+	width: 50px;
+	border-radius: 10px;
+	cursor: pointer;
+	-webkit-transition: 0.7s ease-in-out;
+	-o-transition: 0.7s ease-in-out;
+	-moz-transition: 0.7s ease-in-out;
+	transition: 0.7s ease-in-out;
+}
+.sub .icons i:hover{
+	background-color: black;
+}
+.sub .icons i:nth-child(1){
+	color: #3b5998
+}
+.sub .icons i:nth-child(2){
+	color: #55acee
+}
+.sub .icons i:nth-child(3){
+	color: #dd4b39
+}
+.sub .icons i:nth-child(4){
+	color:  #125688
+}
+.sub  p{
+	text-align: center;
+	color: #EEE;
+	font-size: 18px;
+	margin-top: 15px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

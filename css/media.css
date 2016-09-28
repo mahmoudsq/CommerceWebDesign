@@ -1,0 +1,240 @@
+@media(max-width:767px){
+	.nav h1{
+		font-size: 20px
+	}
+	.nav h2{
+		font-size: 17px
+	}
+	.nav h2:after{
+		margin-top: 0;width: 60px;
+		margin-left: 320px
+	}
+	
+	.nav button{
+		margin-left: 50px;
+	}
+	.nav .arrow{
+		margin-top: 50px
+	}
+	.offer h3{
+		font-size: 20px
+	}
+	.offer h1{
+		font-size: 30px;
+		margin-bottom: 20px
+	}
+	.slide .item p{
+		margin-bottom: 20px;
+		font-size: 20px
+	}
+	.offer .ed{
+		font-size: 25px
+	}
+	.offer .ed:after{
+		width: 40px;
+		border: 2px solid #28cba0;
+		margin-top: 25px;
+		margin-left: 30px
+	}
+	.offer .ed:before{
+		width: 40px;
+		border: 2px solid #28cba0;
+		margin-top: 25px;
+		margin-right: 30px
+	}
+	.offer .icons{
+	margin-top: 20px
+	}
+	.offer .icons i{
+		font-size: 60px
+	}
+	.offer .icons h3{
+		font-size: 15px
+	}
+	.use .hed{
+		font-size: 25px;
+		margin-bottom: 30px
+	}
+	.use .hed:after{
+		margin-left: 280px;
+		width: 80px;;
+		margin-top: 15px
+	}
+	.use .info h1{
+		font-size: 25px
+	}
+	.use .info2 img,.use .info3 img,.use .info4 img{
+		width: 100%;
+		margin-top: 40px
+	}
+	.use .info2 h1{
+		font-size: 25px;
+	}
+	.use .info2 p,.use .info3 p,.use .info4 p{
+		font-size: 15px;
+		margin-left: 0
+	}
+	.use .info2 button{
+		width: 110px;
+		font-size: 15px;
+		margin-bottom: 20px
+	}
+	.use .info3 h1,.use .info4 h1{
+		margin-top: 30px;
+		font-size: 25px;
+		margin-left: 0;
+	}
+	.option .prag1 h1,.option .prag2 h1,.option .icons h1{
+		font-size: 30px;
+		margin-bottom: 25px;
+	}
+	.option .prag1 h1:after{
+		margin-left: 300px;
+		border: 3px solid #fff;
+		margin-top: 10px
+	}
+	.option .prag1 p,.option .prag2 p{
+		font-size: 20px;
+		margin-top: 0
+	}
+	.option .icons .co i{
+		font-size: 65px
+	}
+	.option .icons .co p{
+		font-size: 15px
+	}
+	.price_table ul li{
+		margin-bottom: 5px;
+        width: 85px;
+        font-size: 15px
+	}
+	.price_table .pri img{
+		width: 90%;
+	}
+	.info img{
+		width: 70%
+	}
+}
+@media(min-width:768px) and (max-width:991px){
+	.nav h1{
+		font-size: 25px	
+	}
+	.nav h2{
+		font-size: 27px;
+		margin-bottom: 10px
+	}
+	.nav h2:after{
+		margin-left: 320px
+	}
+	.nav button{
+		margin-left: 290px
+	}
+	.nav .arrow{
+		margin-top: 20px
+	}
+	.offer h1:after{
+		margin-left: 320px
+	}
+	.offer .ed:after{
+		margin-left: 0
+	}
+	.offer .ed:before{
+		margin-right: 0
+	}
+	.use .hed{
+		font-size: 50px
+	}
+	.use .hed:after{
+		margin-left: 320px
+	}
+	.use .info2 img{
+		width: 90%;
+		margin-bottom: 10px
+	}
+	.use .info h1,.use .info2 h1,.use .info3 h1,.use .info4 h1{
+		font-size: 40px;
+		margin-top: 30px
+	}
+	.use .info3 img,.use .info4 img{
+		margin-bottom: 20px
+	}
+	.option .prag1 h1:after{
+		margin-left: 320px
+	}
+	
+}
+@media(min-width:992px) and (max-width:1199px){
+		
+	.nav h2:after{
+		margin-left: 430px
+	}
+	.nav button{
+		margin-left: 400px;
+		margin-top: 100px
+	}
+	.nav .arrow{
+		margin-top: 40px
+	}
+	.offer h1:after{
+		margin-left: 430px
+	}
+	.offer .ed:after{
+		margin-left: 100px
+	}
+	.offer .ed:before{
+		margin-right: 100px
+	}
+	.use .hed:after{
+		margin-left: 430px
+	}
+	.option .prag1 h1:after{
+		margin-left: 430px
+	}
+	.info img{
+		width: 100%
+	}
+}
+@media(max-width:400px){
+	.use .info2 img,.use .info3 img,.use .info4 img{
+		display: none
+	}
+	.nav h2:after{
+		margin-top: 5px;width: 50px;
+		margin-left: 135px
+	}
+	.offer h3{
+		font-size: 18px
+	}
+	.offer h1{
+		font-size: 20px;
+		margin-bottom: 20px
+	}
+	.slide .item p{
+		margin-bottom: 10px;
+		font-size: 16px
+	}
+	.offer .ed{
+		font-size: 22px
+	}
+	.offer .ed:after{
+		width: 30px;
+		border: 2px solid #28cba0;
+		margin-top: 25px;
+		margin-left: 30px
+	}
+	.offer .ed:before{
+		width: 30px;
+		border: 2px solid #28cba0;
+		margin-top: 25px;
+		margin-right: 30px
+	}
+	.use .hed{
+		font-size: 25px
+	}
+	.use .hed:after{
+		margin-left: 100px
+	}
+	.info img{
+		width: 100%
+	}
+}
